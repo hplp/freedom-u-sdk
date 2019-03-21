@@ -7,7 +7,7 @@ This builds a complete RISC-V cross-compile toolchain for the SiFive Freedom Unl
 ### Ubuntu 16.04 x86_64 host
 
 - Status: Working
-- Build dependencies: `build-essential git autotools texinfo bison flex libgmp-dev libmpfr-dev libmpc-dev gawk libz-dev libssl-dev`
+- Build dependencies: `build-essential git autotools texinfo bison flex libgmp-dev libmpfr-dev libmpc-dev gawk libz-dev libssl-dev python unzip libncurses5-dev`
 - Additional build deps for QEMU: `libglib2.0-dev libpixman-1-dev`
 - Additional build deps for Spike: `device-tree-compiler`
 
