@@ -19,7 +19,11 @@ This builds a complete RISC-V cross-compile toolchain for the SiFive Freedom Unl
 
 Checkout this repository. Then you will need to checkout all of the linked submodules using:
 
-`git submodule update --recursive --init`
+```sh
+$ git clone https://github.com/sifive/freedom-u-sdk.git
+$ cd freedom-u-sdk
+$ git submodule update --recursive --init
+```
 
 This will take some time and require around 7GB of disk space. Some modules may fail because certain dependencies don't have the best git hosting. The only solution is to wait and try again later (or ask someone for a copy of that source repository).
 
